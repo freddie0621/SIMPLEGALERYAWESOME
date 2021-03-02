@@ -1,0 +1,35 @@
+2015-10-23 13:44:47 PHP Scripted FFmpeg Video Converter started.
+2015-10-23 13:44:47 Parameter set: convert video to mp4 (default).cmd
+2015-10-23 13:44:47 File exists, using as settings file: convert video to mp4 (default).cmd
+2015-10-23 13:44:47 Loading settings.
+2015-10-23 13:44:47 Setting DIR_IN to: .\in\
+2015-10-23 13:44:47 Setting CONVERT_SUCCESS_ACTION to: move
+2015-10-23 13:44:47 Setting CONVERT_FAILED_ACTION to: move
+2015-10-23 13:44:47 Setting DIR_OUT_ACTION to: move
+2015-10-23 13:44:47 Setting DIR_OUT to: .\out\
+2015-10-23 13:44:47 Setting DIR_DONE_ACTION to: rename
+2015-10-23 13:44:47 Setting DIR_DONE to: .\done\
+2015-10-23 13:44:47 Setting DIR_EXISTED_ACTION to: rename
+2015-10-23 13:44:47 Setting DIR_EXISTED to: .\existed\
+2015-10-23 13:44:47 Setting DIR_FAILED_ACTION to: rename
+2015-10-23 13:44:47 Setting DIR_FAILED to: .\failed\
+2015-10-23 13:44:47 Setting UNIQUE_PREFIX to: -unique-
+2015-10-23 13:44:47 Setting MAX_DIMENSIONS to: 1280 x 720
+2015-10-23 13:44:47 Setting VIDEO_BIT_RATE to: lowest
+2015-10-23 13:44:47 Setting VIDEO_DIMENSIONS_EVEN to: true
+2015-10-23 13:44:47 Setting BIT_RATE_FORMULA to: {width} * {height} * {fps} * 0.09
+2015-10-23 13:44:47 Setting FRAME_RATE_DEFAULT to: 25
+2015-10-23 13:44:47 Setting AUDIO_FIXED_BIT_RATE to: 128000
+2015-10-23 13:44:47 Setting AUDIO_BIT_RATE to: lowest
+2015-10-23 13:44:47 Setting VIDEO_EXTENSIONS to: asf, avi, mpeg, mpg, wmv, mkv, mp4, m4v, mp4v, flv, mov, ts, swf, f4v, rm, 3g2, 3gp2, gp, 3gpp
+2015-10-23 13:44:47 Setting EXCLUDE_EXTENSIONS to: mp3
+2015-10-23 13:44:47 Setting USE_EXCLUDE_EXTENSIONS to: false
+2015-10-23 13:44:47 Setting WRITE_LOG to: true
+2015-10-23 13:44:47 Setting CLEAR_LOG_FILE to: true
+2015-10-23 13:44:47 Setting KEEP_RUNNING to: true
+2015-10-23 13:44:47 Setting FFMPEG_PARAMETERS to: -i "{from}" -b:v {videobit} -vcodec libx264 -vprofile main -preset slow -vf scale={width}:{height} -threads 0 -acodec libvo_aacenc -b:a {audiobit} "{to}"
+2015-10-23 13:44:47 Setting GENERATE_SCREENSHOTS to: true
+2015-10-23 13:44:47 Setting FFMPEG_SCREENSHOT_PARAMETERS to: -ss {time} -i "{from}" -f image2 -vframes 1 "{to}"
+2015-10-23 13:44:47 Setting DESTINATION_EXTENSION to: mp4
+2015-10-23 13:44:47 Settings loaded successfully.
+2015-10-23 13:44:47 In-folder is empty. Waiting for videos to convert.
